@@ -1,7 +1,7 @@
 @domain
-Feature: Odd Positive
+Feature: Odd or Even
   As a user
-  I want to check if a number um odd positive, even positive, odd negative, even negative
+  I want to check if a number is odd positive, even positive, odd negative, even negative or zero
 
   Scenario: Check if a number is odd positive
     Given the number 3
@@ -22,4 +22,3 @@ Feature: Odd Positive
   Scenario: Check if the number is zero
     Given the number 0
     Then the result should be "NULL"
-  
