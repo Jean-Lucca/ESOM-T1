@@ -4,11 +4,9 @@ import java.util.Scanner;
 import static java.lang.System.out;
 
 public final class Main {
-
 	private Main() {
 		
-	}
-	
+	}	
 	public static void main(String[] args) {
 		OddOrEven oddOrEven = new OddOrEven();
 		Scanner scan = new Scanner(System.in);
@@ -19,5 +17,4 @@ public final class Main {
 			out.println(oddOrEven.check(num));
 		}
 	}
-
 }

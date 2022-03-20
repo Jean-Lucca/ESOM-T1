@@ -10,7 +10,7 @@ public class OddOrEvenSteps {
 	private String str;
 
 	@Given("the number {int}")
-    public void initializeCalculator(int num) throws Throwable {
+    public void check(int num) throws Throwable {
 		str = oddOrEven.check(num);
     }
 
